@@ -12,4 +12,4 @@ Git Workflow:
 8. Create a pull request in the GitHub repo, and select Carlo and Mark as reviewers.
 9. Once ticket is approved, Right click project name in IntelliJ, hover over Git, hover over "Repository", select "Merge Changes".
 10. Make sure "Current Branch" is your branch, Select "master" in "Branches to merge", select "Merge" button.
-11. If prompted to resolve conflicts, you must resolve them before pushing.
+11. If prompted to resolve conflicts, you must resolve them before merging.
