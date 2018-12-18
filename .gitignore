@@ -40,5 +40,6 @@ build/
 .idea/.name
 kotlin-ultimate/
 .idea/workspace.xml
-.idea/misc.xml
+.idea
+
 
