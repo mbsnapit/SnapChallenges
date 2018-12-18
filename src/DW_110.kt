@@ -1,4 +1,6 @@
 class Occurrence {
+    // the count of the occurrences of searchKey as a digit,
+    // except that a searchKey followed by one counts as double
     fun count(input: Int, searchKey: Int, previousDigit: Int): Int {
         var count = 0
         var currentNumber = 0
