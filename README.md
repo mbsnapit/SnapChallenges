@@ -2,6 +2,7 @@ SnapChallenges
 Intern Tasks & Challenges
 
 Git Workflow:
+jkjkhkjlhjkhjklhjlkhk
 
 -Right click project name in IntelliJ<br>
 -Hover over Git, select “Commit Directory”<br>
