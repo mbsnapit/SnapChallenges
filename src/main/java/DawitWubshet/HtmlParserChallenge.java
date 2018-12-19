@@ -15,21 +15,7 @@ import java.io.IOException;
 public class HtmlParserChallenge {
     // Extracts script tags from the document located at the provided URL
     public String extractScriptTags(String url) {
-        StringBuilder scripts = new StringBuilder();
-
-        try {
-            Document doc = Jsoup.connect(url).get();
-
-            Elements scriptsList = doc.getElementsByTag("script");
-            for (Element script : scriptsList) {
-                scripts.append(script.data());
-            }
-        } catch (IOException ioe) {
-            scripts = new StringBuilder();
-            scripts.append("Invalid input data.");
-        }
-
-        return scripts.toString();
+        return extractTags(url, "script");
     }
 
     // Extracts all occurrences of the provided tag from
