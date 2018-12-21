@@ -10,8 +10,6 @@ fizzArray3(5, 10) → [5, 6, 7, 8, 9]
 fizzArray3(11, 18) → [11, 12, 13, 14, 15, 16, 17]
 fizzArray3(1, 3) → [1, 2]
 */
-
-
 package NathanThomas
 
 fun main(args: Array<String>) {
@@ -52,11 +50,6 @@ fun fizz(firstNum: Int, lastNum: Int) {
     for (i in 0 until nums.size) {
         print(nums[i])
         print(" ")
-
     }
     println()
 }
-
-
-
-

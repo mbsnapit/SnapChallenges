@@ -48,5 +48,3 @@ fun findEight(numbers: Int, previous: Int): Int {
     println("")
     return count
 }
-
-
