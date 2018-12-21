@@ -2,8 +2,8 @@ package NathanThomas
 
 fun main(args: Array<String>) {
 
-    print("Enter any number:")
-    val input = readLine()!! //.split(" ").map { it.toInt() }
+    print("Enter any number: ")
+    val input = readLine()!!
     val number: Int = input.toInt()
 
     findEight(number, 0)
