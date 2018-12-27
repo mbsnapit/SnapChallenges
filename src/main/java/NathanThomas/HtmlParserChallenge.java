@@ -11,6 +11,8 @@ package NathanThomas;
 
 import java.io.IOException;
 import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.select.Elements;
 
 public class HtmlParserChallenge {
 
@@ -20,6 +22,10 @@ public class HtmlParserChallenge {
 
         String html = Jsoup.connect(webPage).get().html();
 
-        System.out.println(html);
+        Document doc = Jsoup.parse(html);
+
+        Elements scriptTags = doc.getElementsByTag("script");
+
+        System.out.println(scriptTags);
     }
 }
