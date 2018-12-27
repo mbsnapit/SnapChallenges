@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SnapChallenges.iml" filepath="$PROJECT_DIR$/SnapChallenges.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsoup/jsoup.iml" filepath="$PROJECT_DIR$/jsoup/jsoup.iml" />
     </modules>
   </component>
 </project>
