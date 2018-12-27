@@ -39,7 +39,6 @@ fun findEight(numbers: Int, previous: Int): Int {
         if (current == 8) {
             count++
         }
-
     numbers /= 10
 
     count += findEight(numbers, current)

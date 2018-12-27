@@ -14,7 +14,7 @@ package NathanThomas
 
 fun main(args: Array<String>) {
 
-    // Input from user.
+    // Input from user
     print("Enter the first number: ")
     val inputOne = readLine()!!
     var firstNum: Int = inputOne.toInt()

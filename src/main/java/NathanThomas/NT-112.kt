@@ -9,6 +9,7 @@ wordCount(["a", "b", "a", "c", "b"]) → {"a": 2, "b": 2, "c": 1}
 wordCount(["c", "b", "a"]) → {"a": 1, "b": 1, "c": 1}
 wordCount(["c", "c", "c", "c"]) → {"c": 4}
 */
+
 package NathanThomas
 
 fun main(args: Array<String>) {
